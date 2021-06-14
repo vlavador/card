@@ -78,8 +78,8 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }));
-const Navbar = () => {
 
+const Navbar = () => {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
